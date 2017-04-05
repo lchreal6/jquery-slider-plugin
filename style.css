@@ -1,0 +1,42 @@
+#slider {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 790px;
+    height: 340px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#slider-ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#slider-ul li {
+    list-style: none;
+    float: left;
+    width: 790px;
+    height: 340px;
+}
+
+#slider .prev, #slider .next {
+    position: absolute;
+    z-index: 2;
+}
+
+#slider .prev {
+    top: 50%;
+    left: 0;
+
+}
+
+#slider .next {
+    top: 50%;
+    right: 0;
+    
+}
