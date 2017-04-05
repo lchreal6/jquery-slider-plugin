@@ -1,3 +1,11 @@
+# jquery-slider-plugin
+
+* api：
+```
+$("#slider").slider();
+```
+* 核心函数：
+```
 (function ($) {
 
     $.fn.slider = function () {
@@ -107,3 +115,4 @@
     }
 
 }(jQuery))
+```
